@@ -1,0 +1,28 @@
+{
+    "name": "CPU Architecture",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "bit.ts",
+        "byte.ts",
+        "componet.ts",
+        "levels.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.46",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
