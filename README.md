@@ -1,6 +1,17 @@
 
 > Open this page at [https://pikapikahei.github.io/cpu_architecture/](https://pikapikahei.github.io/cpu_architecture/)
 
+## What built-in functions are needed?
+**To create components**
+* function myFunction(args) {
+    Code here...
+}
+
+**To run code when the program is ran**
+* while (component.activity()) {
+    timer.after(500, function() { Code here... })
+}
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.

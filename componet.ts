@@ -57,11 +57,19 @@ namespace component {
     }
 
     /**
+     * Returns true if program is activated, otherwise false
+     */
+    //% block="BASE: Activity [Type: Value]" weight=97
+    export function activity() {
+        return programRun;
+    }
+
+    /**
      * Returns the current output of the program
      */
-    //% block="BASE: Program [Type: Value]" weight=97
+    //% block="BASE: Program [Type: Value]" weight=96
     export function program() {
-        return programlist[programAddress]
+        return programlist[programAddress];
     }
 
     /**
