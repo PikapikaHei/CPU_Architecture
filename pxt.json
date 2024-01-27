@@ -11,8 +11,7 @@
         "assets.json",
         "bit.ts",
         "byte.ts",
-        "componet.ts",
-        "levels.md"
+        "componet.ts"
     ],
     "testFiles": [
         "test.ts"
